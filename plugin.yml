@@ -1,0 +1,26 @@
+name: AdvancedGenerator
+version: 1.7-release
+author: Juno
+main: xyz.juno.advancegenerator.main.AdvanceGenerator
+
+commands:
+  ag:
+    aliases: [advancedgenerator, generator]
+permissions:
+  ag.*:
+    default: op
+    children:
+      ag.help:
+        default: false
+      ag.reload:
+        default: false
+      ag.info:
+        default: false
+      ag.set:
+        default: false
+      ag.give:
+        default: false
+      ag.remove:
+        default: false
+      ag.updater:
+        default: false

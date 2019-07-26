@@ -1,0 +1,63 @@
+Prefix: '&7[&c&l►&7] '
+
+updater:
+  enable: true
+  broadcast-to-staff-player: true
+
+Configuration:
+  break:
+    drop-default-item: false
+    
+    game-mode-allow:
+    - 'SURVIVAL'
+    - 'ADVENTURE'
+    
+  hook-ASkyBlock: true
+  
+  can-not-break-in-another-island: true
+  
+  Place-require:
+    has-island: true
+    is-on-island: true
+
+messages:
+  must-be-player: '&cBạn phải là người chơi để thực hiện lệnh này!'
+  no-permission: '&cBạn không có quyền dùng lệnh này'
+  reload-success: '&aReload thành công'
+  reload-error: '&cCó lỗi khi reload'
+  no-item-in-hand: '&cKhông tìm thấy khối thích hợp'
+  set-success: '&aChỉ định thành công'
+  remove-success: '&aXóa thành công'
+  
+  player-not-found: '&cKhông tìm thấy người chơi'
+  type-not-found: '&cKhông tìm thấy loại material'
+  name-not-found: '&cKhông tìm thấy tên đánh dấu'
+  not-found-player: '&cKhông tìm thấy người chơi!'
+  
+  is-not-number: '&cKhông phải là số!'
+  
+  just-place-on-island: '&cBạn chỉ được đặt ở đảo của bạn!'
+  dont-have-island: '&cBạn phải có đảo để có thể đặt!'
+  
+  item-in-hand-must-be-block: '&cVật phẩm trên tay bạn phải là khối để chỉ định!'
+  
+  not-found-askyblock: '&cKhông tìm thấy ASkyBlock!'
+  
+  can-not-break-in-another-island: '&cBạn không thể phá khối của đảo người khác!'
+  
+  usage:
+    command-set: '&cSử dụng: &f/ag set [name_id] [type] [time]'
+    command-give: '&cSử dụng: &f/ag give [player] [name_id] [amount]'
+    command-remove: '&cSử dụng: &f/ag remove [name_id]'
+  
+  help:
+  - '&7'
+  - '&f&m                                          '
+  - '&b/{lenh} [help, ?] &7- xem thêm về lệnh, quyền: ''ag.help'''
+  - '&b/{lenh} info &7- xem thông tin plugin, quyền: ''ag.info'''
+  - '&b/{lenh} [reload, rl] &7- nạp lại config, quyền: ''age.reload'''
+  - '&b/{lenh} set &7- chỉ định generator, quyền: ''ag.set'''
+  - '&b/{lenh} give &7- đưa generator cho người chơi, quyền: ''ag.give'''
+  - '&b/{lenh} remove &7- xóa generator đã thiết lập, quyền: ''ag.remove'''
+  - '&f&m                                          '
+  - '&7'
